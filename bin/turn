@@ -5,7 +5,7 @@ puts "Welcome to Tic Tac Toe!"
 
 display_board(board)
 
-if turn(board) == true
+if turn(board) 
   move(board , index ,value)
   display_board(board)
 end

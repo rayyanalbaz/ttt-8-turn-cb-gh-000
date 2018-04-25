@@ -9,6 +9,8 @@ turn(board)
 if turn(board) == true
   move(board , index ,value)
   display_board(board)
+else
+  turn(board)
 end
 
 

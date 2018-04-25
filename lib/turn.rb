@@ -8,10 +8,10 @@ def turn(board)
     display_board(board)
   end
 
-#  if valid_move?(board , index) == false
-#    turn(board)
-#    return true
-#  end
+ if valid_move?(board , index) == false
+    turn(board)
+    return true
+  end
 end
 
 

@@ -6,12 +6,6 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 turn(board)
-if turn(board) == true
-  move(board , index ,value)
-  display_board(board)
-else
-  turn(board)
-end
 
 
 end
